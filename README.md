@@ -1,4 +1,4 @@
-# raspberrypi-opengles
+# Cross-compile OpenGLES applications without X
 
 Cross-compile OpenGLES applications without X from a Docker image with Conan. It has a basic implementation of Conan System Packages  for:
 
