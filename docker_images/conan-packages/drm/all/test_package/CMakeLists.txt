@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1)
+project(test_package)
+find_package(drm REQUIRED)
+set(SOURCES test_package.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
+target_link_libraries(${PROJECT_NAME} drm::drm)
