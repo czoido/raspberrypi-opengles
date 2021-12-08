@@ -62,3 +62,4 @@ COPY --chown=carlos conan-packages /home/carlos/conan-packages
 RUN conan create conan-packages/opengles/all opengles/system@ -pr:h=rpi -pr:b=default
 RUN conan create conan-packages/drm/all drm/system@ -pr:h=rpi -pr:b=default
 RUN conan create conan-packages/gbm/all gbm/system@ -pr:h=rpi -pr:b=default
+RUN conan create conan-packages/libvlc/all libvlc/system@ -pr:h=rpi -pr:b=default
